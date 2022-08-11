@@ -165,3 +165,73 @@ max-width: 500px;
 .portfolio-link a{
 	color: #070707;
 }
+
+/* Footer */
+
+.footer {
+padding: 90px 0;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.contacts {
+text-align: center;
+}
+
+.contact-title {
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+color: #070707;
+margin-bottom: 40px;
+}
+
+.contact-message {
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #070707;
+margin-bottom: 40px;
+}
+
+.contact-button {
+	margin-bottom: 80px;
+}
+
+.btn{
+	display: inline-block;
+	color: #fff;
+	background-color: #000;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 27px;
+	padding: 7px 22px;
+	border-radius: 30px;
+	border: 1px solid #000;
+	transition: 0.2s background-color, color;
+}
+
+.btn:hover{
+	background-color: #494949;
+}
+
+.btn:active{
+	background-color: #fff;
+	color: #000;
+	position: relative;
+	top: 2px;
+}
+
+.socials {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.social-description {
+	font-size: 14px;
+	line-height: 21px;
+
+}
